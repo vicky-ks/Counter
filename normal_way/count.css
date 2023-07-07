@@ -1,0 +1,62 @@
+body {
+  background-image: url(https://wallpapercave.com/wp/wp2511122.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+h1 {
+  font-size: 50px;
+  text-align: center;
+  color: rgb(64, 214, 23);
+}
+p {
+  font-size: 30px;
+  text-align: center;
+  color: rgb(48, 61, 61);
+}
+.count {
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+.sp,
+.rounds {
+  font-size: 40px;
+  background: no-repeat rgb(238, 246, 6);
+  /* box-sizing: border-box; */
+  border: 2px dashed rgb(249, 0, 0);
+  color: rgb(201, 12, 12);
+  /* font-size-adjust: 30px; */
+  padding: 8px 12px;
+}
+
+.rounds {
+  background: no-repeat rgb(105, 174, 220);
+  color: rgb(193, 70, 134);
+  border: 2px solid rgb(232, 138, 8);
+  font-size: 50px;
+}
+.divi {
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+.btn {
+  color: rgb(28, 255, 236);
+  box-sizing: border-box;
+  border: 2px solid rgba(255, 232, 28);
+  background: no-repeat rgb(225, 11, 161);
+  box-shadow: 5px 5px 5px red;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  font: 35px "Arial, Helvetica, sans-serif";
+  cursor: pointer;
+  margin: 1rem;
+}
+
+.btn:active {
+  transform: scale(0.98);
+  /* Scaling button to 0.98 to its original size */
+  box-shadow: 4px 4px 4px rgb(0, 0, 0);
+  /* Lowering the shadow */
+}
